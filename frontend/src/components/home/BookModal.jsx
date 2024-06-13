@@ -30,7 +30,7 @@ const BookModal = ({ book, onClose }) => {
         </div>
         <p className='mt-4'>NOTES</p>
         <p className='my-2'>
-          WILL CUSTOMIZE THIS SOON TO ALLOW USERS TO ENTER THEIR OWN NOTES REGARDING THE BOOK
+          {book.description}
         </p>
       </div>
     </div>
